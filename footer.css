@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 110%;
+}
+
+.b1 {
+    width: 100%;
+    height: 50vh;
+}
+
+.ft {
+    display: flex;
+    justify-content: baseline;
+    align-items: top;
+    width: 100%;
+    padding: 1%;
+    color: rgb(239, 234, 234);
+    background-color: rgb(183, 87, 103);
+}
+
+.ft-1 {
+    align-items: center;
+    width: 35%;
+}
+
+.ft-1 h3 {
+    font-size: 90%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: greenyellow;
+    margin-bottom: 1%;
+}
+
+.ft-1 ul {
+    margin-bottom: 1%;
+    color: black;
+}
+
+.ft-1 ul li {
+    list-style-type: none;
+    line-height: 1;
+}
+
+#pdts {
+    margin-left: 1%;
+}
+
+.ft-2 {
+    line-height: 2.0;
+    width: 25%;
+}
+
+.ft-2 h4 {
+    text-transform: uppercase;
+    word-spacing: 2px;
+    margin-bottom: 1%;
+}
+
+.ft-2 p a {
+    text-decoration: dashed;
+    color: black;
+    text-transform: capitalize;
+}
+
+.ft-2 p a:hover {
+    text-decoration: underline;
+    padding: 0cqb;
+    color: white;
+}
+
+.ft-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 100%;
+    padding: 1.2% 10% 1.2% 10%;
+    line-height: 1.7;
+    color: white;
+    background-color: rgb(146, 43, 43);
+}
+
+.ft-4 a {
+    text-decoration: none;
+    color: paleturquoise;
+}
+
+.ft-4 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.ft-5 {
+    width: 25%;
+}
+
+.ft-5 img {
+    margin-left: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
