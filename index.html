@@ -56,31 +56,63 @@
         <h1>Where Quality Matters</h1>
         
     </marquee>
-    
-    <!----Image slider-->
 
+    <div class="slideshow-container">
 
-  <div class="slider">
-    <div class="slides">
-      <img src="images/geo (1).jpg" alt="Image 1">
-      </div>
-      <div class="slides">
-      <img src="images/pc.jpeg" alt="Image 2">
-      </div>
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+         <img src="images/geo (1).jpg" alt="first slide image" style="width: 100%;">
+          <div class="text">Welcome to kitty classic electronics</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/3.jpeg" style="width:100%">
+          <div class="text">Best Services Only Found Here</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/bl1.jpg" style="width:100%">
+          <div class="text">Find your quality Electronics at Kitty classic</div>
+        </div>
 
-    <div class="slides">
-      <img src="images/9.jpg" alt="Image 3">
-</div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="images/8.jpg" style="width:100%">
+            <div class="text">We value every client</div>
+          </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
 
-    <div class="slides">
-      <img src="images/8.jpg" alt="Image 4">
-     </div>
-    <button class="prev" onclick="prevSlide()">&#10094;</button>
-    <button class="next" onclick="nextSlide()">&#10095;</button>
-  </div>
-
-  <script src="script.js"></script>
-            <!--End of image slider-->
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+        </script>
+                <!--End of image slider-->
             <div class="cores" id="cores">
 
                 <div class="mission">
